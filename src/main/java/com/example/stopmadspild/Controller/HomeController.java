@@ -2,6 +2,7 @@ package com.example.stopmadspild.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class HomeController {
@@ -10,12 +11,12 @@ public class HomeController {
     return "Home/index";
   }
 
-  @GetMapping("/individuals")
+  @PostMapping("/individuals")
   public String individuals () {
     return "Home/individuals";
   }
 
-  @GetMapping("/corporations")
+  @PostMapping("/corporations")
   public String corporations () {
     return "Home/corporations";
   }
