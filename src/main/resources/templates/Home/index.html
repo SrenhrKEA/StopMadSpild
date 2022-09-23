@@ -16,29 +16,60 @@
             font-weight: bold;
             font-size: 20px;
             margin-bottom: 40px;
+            text-align: center;
         }
 
         .info {
-
+            margin-bottom: 5px;
         }
 
-        .button {
+        .links-internal {
             font-family: Arial,serif;
             font-weight: bold;
             background-color: greenyellow;
             color: black;
             border: none;
-            height: 36px;
-            width: 105px;
-            border-radius: 5px 5px;
-            cursor: pointer;
-            margin-right: 8px;
-            margin-left: 20px;
-            margin-top: 20px;
-            margin-bottom: 20px;
+            height: 80px;
+            width: 120px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            border-radius: 20px;
+            opacity: 1;
+            transition: opacity 0.2s;
+
         }
-        .button:hover {
-            transition: opacity 0.5s;
+        .links-internal:hover {
+            cursor: pointer;
+            opacity: 0.5;
+        }
+
+        .flex-container-red {
+            display: flex;
+            /*gap: 2rem;*/
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: red;
+        }
+
+        .flex-container-green {
+            display: flex;
+            /*gap: 2rem;*/
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: green;
+        }
+
+        .flex-container-blue {
+            display: flex;
+            /*gap: 2rem;*/
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: blue;
         }
     </style>
 </head>
@@ -46,28 +77,37 @@
 <p class = "intro">
     Velkommen til StopMadSpild.dk
 </p>
-<p class = "info">
-    Info om madspild
-</p>
-<!--<a href="https://www.kk.dk/affald">
-    <img alt="Trashcan" src="https://cdn2.iconfinder.com/data/icons/round-interface-1/220/85-512.png"
-         width="50" height="50">
-</a>-->
-<div style="float:left;">
-    <form method="post" action="/individuals" >
-    <button class ="button" >
-        Individuals
-    </button>
-    </form>
+
+<div class ="flex-container-red">
+    <section style="border: 3px solid black">
+        <p class = "info">
+            Madspildet i den danske servicesektor udgør 227.000-ton pr. år. Til sammenligning er det samlede madspild fra husholdningerne 261.000-ton pr. år.
+        </p>
+        <p class = "info">
+            Det største madspild i servicesektoren stammer fra detailhandelen, der spilder 163.000 tons pr. år, svarende til 72 % af servicesektorens madspild.
+        </p>
+        <p class = "info">
+            Af detailhandelens madspild står specialforretninger som slagtere, fiskeforretninger og grønthandlere for 12.000 tons pr. år, mens ikke-specialiserede forretninger som kiosker, købmænd, supermarkeder og varehuse står for 151.000-ton pr. år.
+        </p>
+
+    </section>
+    <section>
+
+    </section>
 </div>
 
-<div style="float:right;">
-    <form method="post" action="/corporations">
-        <button class ="button" >
-            Corporations
-        </button>
-    </form>
+
+<div class ="flex-container">
+    <a class="links-internal" href="/individuals">
+        Individuals
+    </a>
+
+    <a class="links-internal" href="/corporations">
+        Corporations
+    </a>
 </div>
+
+
 
 
 </body>
