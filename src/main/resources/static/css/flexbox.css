@@ -2,8 +2,9 @@
     display: flex;
     border: 5px solid black;
     justify-content: space-between;
-
-    padding: 4px;
+    gap: 10rem;
+    max-width: 1615px;
+    padding: 10px;
 }
 
 .flex-fotos {
