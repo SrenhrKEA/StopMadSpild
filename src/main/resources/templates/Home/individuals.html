@@ -3,10 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <title>Stop Mad Spild! for Enkeltpersoner</title>
+    <link rel="stylesheet" href="/css/flexbox.css">
+    <link rel="stylesheet" href="/css/plain-text.css">
+    <style>
+
+
+        .link-box {
+            background-color: rgba(145, 255, 145, 1);
+            transition: background-color 0.2s;
+            color: black;
+            font-family: arial, serif;
+            border-radius: 20px;
+        }
+
+        .link-box:hover {
+            background-color: rgba(145, 255, 145, 0.7);
+        }
+
+        .internal-link, .internal-link:visited, .internal-link:link{
+            text-decoration: none;
+            transition: text-decoration 0.3s;
+        }
+
+        .internal-link:hover {
+            text-decoration: underline;
+
+        }
+
+
+
+        .back-arrow {
+            max-width: 60px;
+            justify-content: flex-end;
+            opacity: 0.7;
+            transition: opacity 0.3s;
+        }
+
+        .link-box:hover .back-arrow {
+            opacity: 1;
+        }
+
+
+        .velkomst-tekst {
+            padding: 30px 5px 30px 5px;
+            font-size: 35px;
+            font-family: arial, serif;
+            background-color: pink;
+        }
+
+
+        .external-link {
+            text-decoration: none;
+            color: black;
+        }
+
+        .ikon-link {
+            display: flex;
+            border: 3px solid purple;
+            padding: 10px;
+        }
+
+        .icon {
+            max-width: 55px;
+            margin-right: 35px;
+        }
+
+        .article-title {
+            align-content: flex-start;
+            padding-bottom: 6px;
+            font-size: 30px;
+            font-family: arial, serif;
+        }
+
+        .article-info {
+            opacity: 0;
+            transition: opacity 0.5s;
+            margin-left: 8px;
+        }
+
+        .ikon-link:hover .article-info {
+            opacity: 1;
+            margin-left: 8px;
+        }
+
+
+        * {
+            margin: 0px;
+        }
+    </style>
 </head>
 <body>
-<p>
-    Site for enkeltpersoner
-</p>
+<div class="flex-container">
+    <article class="main-heading flex-element">
+        Info til privatpersoner
+    </article>
+
+    <section class="flex-element">
+        <a href="/" class="internal-link">
+            <figure class="flex-container link-box">
+                <p class="flex-element">Tilbage til index</p>
+                <img src="https://cdn-icons-png.flaticon.com/512/60/60577.png" class="back-arrow flex-element"/>
+            </figure>
+        </a>
+    </section>
+</div>
+
+<article class="velkomst-tekst">
+    Velkomst tekst for privat/virksomhed side med links og hvordan siden bruges.
+</article>
+
+<a href="https://www.foedevarestyrelsen.dk/Foedevarer/madspild/Sider/Skraldning.aspx" target="_blank" class="external-link">
+    <div class="ikon-link">
+        <img src="/images/ikoner/IkonDumpster.png" class="icon" />
+        <article>
+            <p class="article-title">
+                Sådan kan virksomheden undgå madspild...
+            </p>
+            <p class="article-info">
+                Kort info omkring linket artikel...
+            </p>
+        </article>
+    </div>
+</a>
 </body>
 </html>
