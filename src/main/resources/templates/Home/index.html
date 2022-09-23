@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Stop Mad Spild!</title>
-    <!--<link rel="stylesheet" href="/css/buttons.css">-->
-    <link rel="stylesheet" type="text/css" media="all" href="/css/buttons.css"/>
-    <!--<link rel="stylesheet" href="/css/plain-text.css">-->
+    <link rel="stylesheet" href="/css/buttons.css">
+
+    <style>
+        p {
+            font-family: Arial,serif;
+            margin-top: 0;
+            margin-bottom: 0;
+
+        }
+        .intro {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        .info {
+
+        }
+
+        .button {
+            font-family: Arial,serif;
+            font-weight: bold;
+            background-color: greenyellow;
+            color: black;
+            border: none;
+            height: 36px;
+            width: 105px;
+            border-radius: 5px 5px;
+            cursor: pointer;
+            margin-right: 8px;
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .button:hover {
+            transition: opacity 0.5s;
+        }
+    </style>
 </head>
 <body>
 <p class = "intro">
@@ -18,15 +53,22 @@
     <img alt="Trashcan" src="https://cdn2.iconfinder.com/data/icons/round-interface-1/220/85-512.png"
          width="50" height="50">
 </a>-->
-<form method="post" action="/individuals">
-    <button class ="button-left" >
+<div style="float:left;">
+    <form method="post" action="/individuals" >
+    <button class ="button" >
         Individuals
     </button>
-</form>
+    </form>
+</div>
+
+<div style="float:right;">
     <form method="post" action="/corporations">
-        <button class ="button-right" >
+        <button class ="button" >
             Corporations
         </button>
-</form>
+    </form>
+</div>
+
+
 </body>
 </html>
