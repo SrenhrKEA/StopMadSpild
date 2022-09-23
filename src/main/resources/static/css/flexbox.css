@@ -3,7 +3,6 @@
     border: 5px solid black;
     justify-content: space-between;
 
-    gap: 1rem;
     padding: 4px;
 }
 
@@ -13,7 +12,7 @@
     border: 5px solid grey;
     gap: 2rem;
     margin: 0px;
-
+    justify-content: space-evenly;
 }
 
 .info-boks {
@@ -23,8 +22,14 @@
     max-width: 700px;
 }
 
+.spalte-boks {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
 .flex-fotos img {
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .flex-element {

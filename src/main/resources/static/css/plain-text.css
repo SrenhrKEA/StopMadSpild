@@ -12,7 +12,8 @@
     margin-bottom: 10px;
 }
 
-.tekst-spalte {
-
+.tekst-spalte li {
+    font-size: 20px;
+    font-family: airal, serif;
 }
 
