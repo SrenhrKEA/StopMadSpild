@@ -5,92 +5,112 @@
     <title>Stop Mad Spild!</title>
     <link rel="stylesheet" href="/css/flexbox.css">
     <link rel="stylesheet" href="/css/plain-text.css">
+    <link rel="stylesheet" href="/css/images.css">
 
     <style>
         p {
-            font-family: Arial,serif;
+            font-family: Arial, serif;
             margin-top: 0;
             margin-bottom: 0;
 
         }
 
-
-        .info {
-            margin-bottom: 5px;
-        }
-
         .links-internal {
-            font-family: Arial,serif;
-            font-weight: bold;
-            background-color: greenyellow;
-            color: black;
+            font-family: Arial, serif;
+            background-color: #2BAA74;
+            color: white;
             border: none;
             height: 80px;
-            width: 120px;
+            width: 150px;
             display: flex;
             justify-content: center;
-            text-align: center;
             align-items: center;
-            border-radius: 20px;
             opacity: 1;
             transition: opacity 0.2s;
+            min-width: 150px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+            letter-spacing: .5px;
+            line-height: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin: 10px 0;
+            padding: 15px 20px;
+            text-align: center !important;
+            text-decoration-line: none;
 
         }
+
         .links-internal:hover {
             cursor: pointer;
             opacity: 0.5;
+            text-decoration-line: underline;
         }
 
-
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: #1abc9c;
+            color: #2EB179;
+            font-family: Arial, sans-serif;
+            font-size: 30px;
+            text-shadow: 0 2px 1px #2EB179,
+            -1px 3px 1px #2BAA74
+        }
     </style>
+
 </head>
 <body>
-<p class = "main-heading">
-    Velkommen til StopMadSpild.dk
-</p>
+<div class="header" id="div-with-bg">
+    <h1>
+        StopMadSpild.dk
+    </h1>
+</div>
 
-
-
-<div class ="flex-container">
+<div class="flex-container">
     <section class="info-boks">
-        <p class = "tekst-body">
-            Hver dag bliver der smidt næsten 2.000 tons fødevarer ud i Danmark. Men nu går indsatsen mod madspild ind i en ny fase Organisationen - Danmark mod Madspild – ønsker via en webside at gøre det nemmere at undgå madspild eller informere forbrugere om madspild.
+        <p class="tekst-body">
+            Hver dag bliver der smidt næsten 2.000 tons fødevarer ud i Danmark. Men nu går indsatsen mod madspild ind i
+            en ny fase Organisationen - Danmark mod Madspild – ønsker via en webside at gøre det nemmere at undgå
+            madspild eller informere forbrugere om madspild.
         </p>
 
         <section class="tekst-spalte spalte-boks">
             <p>
-                Madspildet i den danske servicesektor udgør 227.000-ton pr. år. Til sammenligning er det samlede madspild fra husholdningerne 261.000-ton pr. år.
+                Madspildet i den danske servicesektor udgør 227.000-ton pr. år. Til sammenligning er det samlede
+                madspild fra husholdningerne 261.000-ton pr. år.
             </p>
             <p>
-                Det største madspild i servicesektoren stammer fra detailhandelen, der spilder 163.000 tons pr. år, svarende til 72 % af servicesektorens madspild.
+                Det største madspild i servicesektoren stammer fra detailhandelen, der spilder 163.000 tons pr. år,
+                svarende til 72 % af servicesektorens madspild.
             </p>
         </section>
-
-
     </section>
+
     <section class="info-boks">
         <p class="tekst-body">
-            Af detailhandelens madspild står specialforretninger som slagtere, fiskeforretninger og grønthandlere for 12.000 tons pr. år, mens ikke-specialiserede forretninger som kiosker, købmænd, supermarkeder og varehuse står for 151.000-ton pr. år.
+            Af detailhandelens madspild står specialforretninger som slagtere, fiskeforretninger og grønthandlere for
+            12.000 tons pr. år, mens ikke-specialiserede forretninger som kiosker, købmænd, supermarkeder og varehuse
+            står for 151.000-ton pr. år.
         </p>
-        <figure class="flex-fotos">
-            <img src="/images/Grøntsager.png" alt="billede af grøntsager" />
-            <img src="/images/Frugter.png" alt="billede af frugter" />
-        </figure>
+                <figure class="flex-fotos">
+                    <img src="/images/Grøntsager.png" alt="billede af grøntsager"/>
+                    <img src="/images/Frugter.png" alt="billede af frugter"/>
+                </figure>
     </section>
 </div>
 
 
-<div class ="flex-container">
+<div class="flex-container">
     <a class="links-internal" href="/individuals">
-        Individuals
+        Individuals ❯
     </a>
 
     <a class="links-internal" href="/corporations">
-        Corporations
+        Corporations ❯
     </a>
 </div>
-
-
 
 
 </body>
