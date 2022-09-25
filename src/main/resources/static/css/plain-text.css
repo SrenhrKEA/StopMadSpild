@@ -29,3 +29,13 @@ body {
     padding: 15px;
 }
 
+.sideinfo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sideinfo * {
+    font-size: 30px;
+    font-family: airal, serif;
+    margin-bottom: 30px;
+}
