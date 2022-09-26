@@ -5,10 +5,13 @@
     <title>Stop Mad Spild! for Virksomheder</title>
     <link rel="stylesheet" href="/css/flexbox.css">
     <link rel="stylesheet" href="/css/plain-text.css">
+    <link rel="stylesheet" href="/css/images.css">
+    <link rel="stylesheet" href="/css/body.css">
+    <link rel="stylesheet" href="/css/links.css">
     <style>
 
 
-        .link-box {
+       /* .link-box {
             background-color: rgba(145, 255, 145, 1);
             transition: background-color 0.2s;
             color: black;
@@ -20,7 +23,7 @@
             background-color: rgba(145, 255, 145, 0.7);
         }
 
-        .internal-link, .internal-link:visited, .internal-link:link{
+        .internal-link, .internal-link:visited, .internal-link:link {
             text-decoration: none;
             transition: text-decoration 0.3s;
         }
@@ -29,9 +32,7 @@
             text-decoration: underline;
 
         }
-
-
-
+*/
         .back-arrow {
             max-width: 60px;
             justify-content: flex-end;
@@ -43,12 +44,12 @@
             opacity: 1;
         }
 
-
         .velkomst-tekst {
-            padding: 30px 5px 30px 5px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-family: Roboto Light, serif, bold;
             font-size: 35px;
-            font-family: arial, serif;
-            background-color: pink;
+            background-color: beige;
         }
 
 
@@ -88,34 +89,33 @@
 
 
         * {
-            margin: 0px;
+            margin: 0;
         }
     </style>
 </head>
 <body>
-<div class="flex-container">
-    <article class="main-heading flex-element">
-        Privat/Virksomhed Madspild
-    </article>
+<div class="flex-container header" id="div-with-bg">
+    <h1 class="header-text flex-element">
+        Links for Virksomheder
+    </h1>
 
-    <section class="flex-element">
-        <a href="/" class="internal-link">
-            <figure class="flex-container link-box">
-                <p class="flex-element">Tilbage til index</p>
-                <img src="https://cdn-icons-png.flaticon.com/512/60/60577.png" class="back-arrow flex-element"/>
-            </figure>
-        </a>
-    </section>
+    <h2 class="flex-element">
+    <a href="/" class="links-internal">
+        Tilbage til index ❯
+        <img src="https://cdn-icons-png.flaticon.com/512/60/60577.png" alt="img-tilbage" class="back-arrow flex-element"/>
+    </a>
+    </h2>
 </div>
 
 
-<article class="velkomst-tekst">
+<article class="flex-container velkomst-tekst">
     Velkomst tekst for privat/virksomhed side med links og hvordan siden bruges.
 </article>
 
-<a href="https://www.foedevarestyrelsen.dk/Foedevarer/madspild/Sider/Saadan-kan-virksomheden-undgaa-madspild.aspx" target="_blank" class="external-link">
+<a href="https://www.foedevarestyrelsen.dk/Foedevarer/madspild/Sider/Saadan-kan-virksomheden-undgaa-madspild.aspx"
+   target="_blank" class="external-link">
     <div class="ikon-link">
-        <img src="/images/ikoner/IkonGenericFood1.png" class="icon" />
+        <img src="/images/ikoner/IkonGenericFood1.png" class="icon" alt="image"/>
         <article>
             <p class="article-title">
                 Sådan kan virksomheden undgå madspild...
@@ -127,9 +127,10 @@
     </div>
 </a>
 
-<a href="https://www.foedevarestyrelsen.dk/Selvbetjening/Guides/Sider/Saadan-kan-virksomheden-undgaa-madspild.aspx" target="_blank" class="external-link">
+<a href="https://www.foedevarestyrelsen.dk/Selvbetjening/Guides/Sider/Saadan-kan-virksomheden-undgaa-madspild.aspx"
+   target="_blank" class="external-link">
     <div class="ikon-link">
-        <img src="/images/ikoner/IkonGenericFood2.png" class="icon" />
+        <img src="/images/ikoner/IkonGenericFood2.png" class="icon" alt="image"/>
         <article>
             <p class="article-title">
                 Sådan kan virksomheden undgå madspild, fx ved donation...
@@ -141,12 +142,14 @@
     </div>
 </a>
 
-<a href="https://www.foedevarestyrelsen.dk/Selvbetjening/Guides/Sider/Hakket_Koed_til_detail.aspx" target="_blank" class="external-link">
+<a href="https://www.foedevarestyrelsen.dk/Selvbetjening/Guides/Sider/Hakket_Koed_til_detail.aspx" target="_blank"
+   class="external-link">
     <div class="ikon-link">
-        <img src="/images/ikoner/IkonGenericFood1.png" class="icon" />
+        <img src="/images/ikoner/IkonGenericFood1.png" class="icon" alt="image"/>
         <article>
             <p class="article-title">
-                Levering af hakket kød fra detailbutik til andre detailbutikker - hvornår må virksomheden levere til andre?
+                Levering af hakket kød fra detailbutik til andre detailbutikker - hvornår må virksomheden levere til
+                andre?
             </p>
             <p class="article-info">
                 Kort info omkring linket artikel...
@@ -155,9 +158,10 @@
     </div>
 </a>
 
-<a href="https://www.foedevarestyrelsen.dk/Selvbetjening/Guides/Sider/Faa-styr-p%C3%A5-frugt-og-groent-i-din-egenkontrol.aspx" target="_blank" class="external-link">
+<a href="https://www.foedevarestyrelsen.dk/Selvbetjening/Guides/Sider/Faa-styr-p%C3%A5-frugt-og-groent-i-din-egenkontrol.aspx"
+   target="_blank" class="external-link">
     <div class="ikon-link">
-        <img src="/images/ikoner/IkonGenericFood2.png" class="icon" />
+        <img src="/images/ikoner/IkonGenericFood2.png" class="icon" alt="image"/>
         <article>
             <p class="article-title">
                 Få styr på frugt og grønt i din egenkontrol...
@@ -169,9 +173,10 @@
     </div>
 </a>
 
-<a href="https://www.foedevarestyrelsen.dk/Selvbetjening/Guides/Sider/Saadan-undgaar-du-madspild-p%C3%A5-festivaller.aspx" target="_blank" class="external-link">
+<a href="https://www.foedevarestyrelsen.dk/Selvbetjening/Guides/Sider/Saadan-undgaar-du-madspild-p%C3%A5-festivaller.aspx"
+   target="_blank" class="external-link">
     <div class="ikon-link">
-        <img src="/images/ikoner/IkonGenericFood1.png" class="icon" />
+        <img src="/images/ikoner/IkonGenericFood1.png" class="icon" alt="image"/>
         <article>
             <p class="article-title">
                 Sådan undgår du madspild fra festivaler...

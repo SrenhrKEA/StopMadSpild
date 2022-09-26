@@ -1,0 +1,39 @@
+.links-internal {
+    background-color: #2BAA74;
+    color: white;
+    /*
+    border: none;
+    */
+/*    height: 80px;
+    width: 150px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 0.2s;
+    min-width: 150px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: .5px;
+    line-height: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    /*
+    margin: 10px 0;
+    */
+    text-align: center;
+    text-decoration-line: none;
+
+}
+
+.links-internal:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    text-decoration-line: underline;
+}
+
+.links-internal-index {
+    height: 240px;
+    width: 450px;
+}

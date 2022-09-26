@@ -1,41 +1,61 @@
-body {
-    font-family: cambria, serif;
-    font-size: 50px;
+.header {
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 2px 1px floralwhite,
+    -1px 1px 1px whitesmoke;
+    gap: 40rem;
+}
+
+.header-text {
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
 .main-heading {
     font-size: 65px;
-    font-family: cambria, serif;
     margin-top: 10px;
     margin-bottom: 30px;
 }
 
 .tekst-body {
-    font-family: arial, serif;
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 60px;
+    font-family: Roboto Light, serif, bold;
+    font-size: 24px;
+    margin: 30px 30px 30px 60px
 }
 
-.tekst-spalte {
+/*.tekst-spalte {
     margin-top: 30px;
-}
+}*/
 
 .tekst-spalte p {
+    max-width: 800px;
     font-size: 24px;
-    font-family: airal, serif;
-    background-color: rgba(220, 220, 220, 0.6);
-    border: 2px solid grey;
+    background-color: rgba(218,40,27,255);
+    /*
     padding: 15px;
+    */
+    /*
+    border-radius: 5px;
+    */
+    /*
+    margin: 30px 30px 30px 60px
+    */
 }
 
 .sideinfo {
+    justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    /*
+    flex-wrap: wrap;
+    */
 }
 
-.sideinfo * {
+/*.sideinfo * {
     font-size: 30px;
-    font-family: airal, serif;
     margin-bottom: 30px;
-}
+}*/
