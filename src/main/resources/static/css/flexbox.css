@@ -1,18 +1,12 @@
 .flex-container {
     display: flex;
     justify-content: space-between;
-/*    padding: 30px;*/
 }
 
 .box {
-    /*
-    justify-content: normal;
-    */
+
     padding-right: 15px;
     padding-left: 15px;
-    /*
-    flex-wrap: wrap;
-    */
 }
 
 .image {
@@ -30,37 +24,3 @@
 .flex-row {
     flex-direction: row;
 }
-
-#shrink-flex {
-    flex-shrink: 5; /* default 1 */
-}
-
-/*div:nth-of-type(2) {
-    flex-shrink: 2;
-}*/
-
-/*.info-boks {
-    display: flex;
-    border: none;
-    margin-bottom: 30px;
-}
-
-.spalte-boks {
-    display: flex;
-    justify-content: space-between;
-    gap: 3rem;
-    border: none;
-    border-radius: 3px;
-}*/
-
-/*
-.flex-image img {
-    !*
-    max-width: 300px;
-    *!
-}
-
-.illustration {
-    !*    margin-top: 20px;
-        margin-right: 50px;*!
-}*/

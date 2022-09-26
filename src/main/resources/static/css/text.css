@@ -6,47 +6,33 @@
 
 .tekst-body {
     font-family: Roboto Light, serif, bold;
-    font-size: 24px;    /*
-    margin: 30px 30px 30px 60px
-    */
-
+    font-size: 24px;
 }
 
-/*.tekst-spalte {
-    margin-top: 30px;
-}*/
-
 .tekst-spalte {
-    /*
-    max-width: 800px;
-    */
     font-size: 24px;
-    /*
-    background-color: rgba(218,40,27,255);
-    */
     background-color: lightgrey;
     border: 2px solid grey;
     padding: 15px;
     border-radius: 5px;
     margin: 10px;
-/*    padding-top: 15px;
-    padding-bottom: 15px;*/
+
 }
 
 .sideinfo {
     justify-content: center;
-/*    margin-top: 25px;*/
+
     margin-bottom: 25px;
-    /*
-    flex-wrap: wrap;
-    */
+
 }
 
 .footer  {
     margin-bottom: 25px;
 }
 
-/*.sideinfo * {
-    font-size: 30px;
-    margin-bottom: 30px;
-}*/
+.velkomst-tekst {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 35px;
+    background-color: beige;
+}

@@ -5,114 +5,29 @@
     <title>Stop Mad Spild! for Enkeltpersoner</title>
     <link rel="stylesheet" href="/css/flexbox.css">
     <link rel="stylesheet" href="/css/text.css">
-    <style>
-
-
-        .link-box {
-            background-color: rgba(145, 255, 145, 1);
-            transition: background-color 0.2s;
-            color: black;
-            font-family: arial, serif;
-            border-radius: 20px;
-        }
-
-        .link-box:hover {
-            background-color: rgba(145, 255, 145, 0.7);
-        }
-
-        .internal-link, .internal-link:visited, .internal-link:link{
-            text-decoration: none;
-            transition: text-decoration 0.3s;
-        }
-
-        .internal-link:hover {
-            text-decoration: underline;
-
-        }
-
-
-
-        .back-arrow {
-            max-width: 60px;
-            justify-content: flex-end;
-            opacity: 0.7;
-            transition: opacity 0.3s;
-        }
-
-        .link-box:hover .back-arrow {
-            opacity: 1;
-        }
-
-
-        .velkomst-tekst {
-            padding: 30px 5px 30px 5px;
-            font-size: 35px;
-            font-family: arial, serif;
-            background-color: pink;
-        }
-
-
-        .external-link {
-            text-decoration: none;
-            color: black;
-        }
-
-        .ikon-link {
-            display: flex;
-            border: 3px solid purple;
-            padding: 10px;
-        }
-
-        .icon {
-            max-width: 55px;
-            margin-right: 35px;
-        }
-
-        .article-title {
-            align-content: flex-start;
-            padding-bottom: 6px;
-            font-size: 30px;
-            font-family: arial, serif;
-        }
-
-        .article-info {
-            opacity: 0;
-            transition: opacity 0.5s;
-            margin-left: 8px;
-        }
-
-        .ikon-link:hover .article-info {
-            opacity: 1;
-            margin-left: 8px;
-        }
-
-
-        * {
-            margin: 0;
-        }
-    </style>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/body.css">
+    <link rel="stylesheet" href="/css/links.css">
 </head>
 <body>
-<div class="flex-container">
-    <article class="main-heading box">
-        Info til privatpersoner
-    </article>
-
-    <section class="box">
-        <a href="/" class="internal-link">
-            <figure class="flex-container link-box">
-                <p class="box">Tilbage til index</p>
-                <img src="https://cdn-icons-png.flaticon.com/512/60/60577.png" class="back-arrow box" alt="image"/>
-            </figure>
-        </a>
-    </section>
+<div class="flex-container header" id="div-with-bg">
+    <h1 class="header-text">
+        Info til Privatpersoner
+    </h1>
 </div>
 
-<article class="velkomst-tekst">
-    Velkomst tekst for privat/virksomhed side med links og hvordan siden bruges.
-</article>
+<div class="flex-container velkomst-tekst">
+    <p>
+        Velkomst tekst for privat/virksomhed side med links og hvordan siden bruges.
+    </p>
+    <a href="/" class="links-internal" id="return">
+        Tilbage til index ❯
+        <!--<img src="https://cdn-icons-png.flaticon.com/512/60/60577.png" alt="img-tilbage"/>-->
+    </a>
+</div>
 
-<a href="https://www.foedevarestyrelsen.dk/Foedevarer/madspild/Sider/Skraldning.aspx" target="_blank" class="external-link">
+<a href="https://www.foedevarestyrelsen.dk/Foedevarer/madspild/Sider/Skraldning.aspx" target="_blank"
+   class="external-link">
     <div class="ikon-link">
         <img src="/images/ikoner/IkonDumpster.png" class="icon" alt="image"/>
         <article>
@@ -125,7 +40,9 @@
         </article>
     </div>
 </a>
-<a href="https://www.foedevarestyrelsen.dk/Selvbetjening/Guides/Sider/Saadan-tjekker-du-om-din-mad-er-fordaervet.aspx" target="_blank" class="external-link">
+
+<a href="https://www.foedevarestyrelsen.dk/Selvbetjening/Guides/Sider/Saadan-tjekker-du-om-din-mad-er-fordaervet.aspx"
+   target="_blank" class="external-link">
     <div class="ikon-link">
         <img src="/images/ikoner/IkonOverSalesDate.png" class="icon" alt="image"/>
         <article>
