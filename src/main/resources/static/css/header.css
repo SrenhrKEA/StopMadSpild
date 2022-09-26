@@ -1,0 +1,25 @@
+#div-with-bg
+{
+    background: url("https://csr.dk/sites/default/files/styles/2400px/public/116433646_l.jpg?itok=Di7Lu0YQ") no-repeat center;
+    position: relative;
+    background-size: cover;
+}
+
+.header {
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 2px 1px floralwhite,
+    -1px 1px 1px whitesmoke;
+    /*
+    gap: 40rem;
+    */
+}
+
+.header-text {
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}

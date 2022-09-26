@@ -1,27 +1,21 @@
 .links-internal {
     background-color: #2BAA74;
+/*    background-color: red;*/
     color: white;
-    /*
-    border: none;
-    */
-/*    height: 80px;
-    width: 150px;*/
-    display: flex;
-    justify-content: center;
+    height: 25%;
+/*    width: 150px;*/
     align-items: center;
     opacity: 1;
     transition: opacity 0.2s;
-    min-width: 150px;
+    min-width: 40%;
     border-radius: 3px;
-    cursor: pointer;
     font-size: 16px;
     letter-spacing: .5px;
     line-height: 16px;
     font-weight: 600;
     text-transform: uppercase;
-    /*
-    margin: 10px 0;
-    */
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     text-decoration-line: none;
 
@@ -33,7 +27,7 @@
     text-decoration-line: underline;
 }
 
-.links-internal-index {
-    height: 240px;
-    width: 450px;
+#return {
+    height: 80px;
+    width: 150px;
 }
