@@ -28,6 +28,9 @@
 }
 
 #return {
-    height: 80px;
-    width: 150px;
+    /*
+    height: 100%;
+    */
+    min-width: 10%;
+    border-radius: 0;
 }

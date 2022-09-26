@@ -33,21 +33,23 @@
 
          }
  */
-        .back-arrow {
+/*        .back-arrow {
             max-width: 60px;
             justify-content: flex-end;
             opacity: 0.7;
             transition: opacity 0.3s;
-        }
+        }*/
 
-        .link-box:hover .back-arrow {
+/*        .link-box:hover .back-arrow {
             opacity: 1;
-        }
+        }*/
 
         .velkomst-tekst {
             padding-top: 30px;
             padding-bottom: 30px;
+            /*
             font-family: Roboto Light, serif, bold;
+            */
             font-size: 35px;
             background-color: beige;
         }
@@ -100,14 +102,16 @@
     </h1>
 </div>
 
-<div class="flex-container">
-    <article class="velkomst-tekst">
-        Velkomst tekst for privat/virksomhed side med links og hvordan siden bruges.
-    </article>
-    <a href="/" class="links-internal">
-        Tilbage til index ❯
-        <img src="https://cdn-icons-png.flaticon.com/512/60/60577.png" alt="img-tilbage" class="back-arrow box"/>
-    </a>
+<div class="flex-container velkomst-tekst">
+
+        <p>
+            Velkomst tekst for privat/virksomhed side med links og hvordan siden bruges.
+        </p>
+        <a href="/" class="links-internal" id="return">
+            Tilbage til index ❯
+            <!--<img src="https://cdn-icons-png.flaticon.com/512/60/60577.png" alt="img-tilbage"/>-->
+        </a>
+
 </div>
 
 <a href="https://www.foedevarestyrelsen.dk/Foedevarer/madspild/Sider/Saadan-kan-virksomheden-undgaa-madspild.aspx"
