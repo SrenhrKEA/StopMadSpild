@@ -1,0 +1,14 @@
+.button-left {
+    background-color: chartreuse;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*transition: opacity 0.1;*/
+}

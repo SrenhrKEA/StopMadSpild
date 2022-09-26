@@ -1,0 +1,22 @@
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.98);
+}
+
+body {
+    background-image: url("https://csr.dk/sites/default/files/styles/2400px/public/116433646_l.jpg?itok=Di7Lu0YQ");
+    background-repeat: repeat;
+}
+
+.pictures-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.pictures-container img{
+    width: 35%;
+    padding: 20px;
+}
+

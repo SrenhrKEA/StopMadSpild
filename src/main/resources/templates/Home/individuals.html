@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stop Mad Spild! for Enkeltpersoner</title>
+    <link rel="stylesheet" href="/css/flexbox.css">
+    <link rel="stylesheet" href="/css/plain-text.css">
+    <link rel="stylesheet" href="/css/individuals.css">
+    <style>
+
+
+        .link-box {
+            background-color: rgba(145, 255, 145, 1);
+            transition: background-color 0.2s;
+            color: black;
+            font-family: arial, serif;
+            border-radius: 20px;
+        }
+
+        .link-box:hover {
+            background-color: rgba(145, 255, 145, 0.7);
+        }
+
+        .internal-link, .internal-link:visited, .internal-link:link{
+            text-decoration: none;
+            transition: text-decoration 0.3s;
+        }
+
+        .internal-link:hover {
+            text-decoration: underline;
+
+        }
+
+
+
+        .back-arrow {
+            max-width: 60px;
+            justify-content: flex-end;
+            opacity: 0.7;
+            transition: opacity 0.3s;
+        }
+
+        .link-box:hover .back-arrow {
+            opacity: 1;
+        }
+
+
+        .velkomst-tekst {
+            padding: 30px 15px 30px 15px;
+            font-size: 35px;
+            font-family: arial, serif;
+            background-color: pink;
+            text-align: center;
+        }
+
+
+        .external-link {
+            text-decoration: none;
+            color: black;
+        }
+
+        .ikon-link {
+            display: flex;
+            border: 3px solid purple;
+            padding: 10px;
+        }
+
+        .icon {
+            max-width: 55px;
+            margin-right: 35px;
+        }
+
+        .article-title {
+            align-content: flex-start;
+            padding-bottom: 6px;
+            font-size: 30px;
+            font-family: arial, serif;
+        }
+
+        .article-info {
+            opacity: 0;
+            transition: opacity 0.5s;
+            margin-left: 8px;
+        }
+
+        .ikon-link:hover .article-info {
+            opacity: 1;
+            margin-left: 8px;
+        }
+
+
+        * {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <p class = "header-text">
+            StopMadspild
+        </p>
+        <a href="/"> <img src="/images/ikoner/IkonHouse.png" alt="Hovedside" height=50 > </a>
+    </header>
+
+    <div class="main-container">
+        <article class="velkomst-tekst">
+            Her finder du brugbare link for privatpersoner
+        </article>
+        <a href="https://www.foedevarestyrelsen.dk/Foedevarer/madspild/Sider/Skraldning.aspx" target="_blank" class="external-link">
+            <div class="ikon-link">
+                <img src="/images/ikoner/IkonDumpster.png" class="icon" />
+                <article>
+                    <p class="article-title">
+                        Hvordan skralder jeg?
+                    </p>
+                    <p class="article-info">
+                        Kort info omkring linket artikel...
+                    </p>
+                </article>
+            </div>
+        </a>
+        <a href="https://www.foedevarestyrelsen.dk/Selvbetjening/Guides/Sider/Saadan-tjekker-du-om-din-mad-er-fordaervet.aspx" target="_blank" class="external-link">
+            <div class="ikon-link">
+                <img src="/images/ikoner/IkonOverSalesDate.png" class="icon" />
+                <article>
+                    <p class="article-title">
+                        Hvornår er din mad fordærvet?
+                    </p>
+                    <p class="article-info">
+                        Kort info omkring linket artikel...
+                    </p>
+                </article>
+            </div>
+        </a>
+        <a href="https://toogoodtogo.com/en-us" target="_blank" class="external-link">
+            <div class="ikon-link">
+                <img src="/images/ikoner/IkonGenericFood1.png" class="icon" />
+                <article>
+                    <p class="article-title">
+                        Der findes apps til at mindske madspild
+                    </p>
+                    <p class="article-info">
+                        TooGoodToGo giver mulighed for at købe mad butikker som ellers ville gå til spilde
+                    </p>
+                </article>
+            </div>
+        </a>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10rem;
+    max-width: 1615px;
+    padding: 10px;
+}
+
+.info-sections-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px 5px 5px;
+    box-shadow: 0 6px 12px -6px rgba(89, 89, 89, 0.25) inset;
+}
+
+.info-sections {
+    display:flex;
+    flex-wrap: wrap;
+    flex:1;
+    padding: 10px;
+}
+.flex-fotos {
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    border: 2px dotted lightgreen;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+.info-boks {
+    display: flex;
+    padding: 10px;
+    max-width: 700px;
+    border: 3px solid black;
+    margin-bottom: 30px;
+}
+
+.spalte-boks {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.flex-fotos img {
+    max-width: 300px;
+}
+
+.flex-element {
+<!-- border: 3px solid blue; -->
+    flex-direction: column;
+    flex-wrap: wrap;
+}
