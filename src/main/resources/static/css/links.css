@@ -1,9 +1,7 @@
 .links-internal {
     background-color: #2BAA74;
-/*    background-color: red;*/
     color: white;
     height: 25%;
-/*    width: 150px;*/
     align-items: center;
     opacity: 1;
     transition: opacity 0.2s;
