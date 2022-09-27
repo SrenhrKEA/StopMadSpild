@@ -27,7 +27,7 @@
     text-decoration-line: underline;
 }
 
-#return {
+#link-return {
     /*
     height: 100%;
     */
@@ -49,19 +49,6 @@
 .icon {
     max-width: 55px;
     margin-right: 35px;
-}
-
-.article-title {
-    align-content: flex-start;
-    padding-bottom: 6px;
-    font-size: 30px;
-    font-family: arial, serif;
-}
-
-.article-info {
-    opacity: 0;
-    transition: opacity 0.5s;
-    margin-left: 8px;
 }
 
 .ikon-link:hover .article-info {

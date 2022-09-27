@@ -21,13 +21,8 @@
 
 .sideinfo {
     justify-content: center;
-
     margin-bottom: 25px;
 
-}
-
-.footer  {
-    margin-bottom: 25px;
 }
 
 .velkomst-tekst {
@@ -35,4 +30,17 @@
     padding-bottom: 30px;
     font-size: 35px;
     background-color: beige;
+}
+
+.article-title {
+    align-content: flex-start;
+    padding-bottom: 6px;
+    font-size: 30px;
+    font-family: arial, serif;
+}
+
+.article-info {
+    opacity: 0;
+    transition: opacity 0.5s;
+    margin-left: 8px;
 }
