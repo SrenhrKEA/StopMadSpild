@@ -28,11 +28,13 @@
 }
 
 #link-return {
-    /*
     height: 100%;
-    */
+    width: 250px;
+    max-width: 100%;
     min-width: 10%;
     border-radius: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .external-link {
@@ -44,10 +46,13 @@
     display: flex;
     border: 3px solid purple;
     padding: 10px;
+    width: 100%;
 }
 
 .icon {
-    max-width: 55px;
+    height: 100px;
+    width: 100px;
+    max-width: 100%;
     margin-right: 35px;
 }
 
